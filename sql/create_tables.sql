@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ticker TEXT NOT NULL,
+    date TEXT NOT NULL,
+    open REAL,
+    high REAL,
+    low REAL,
+    close REAL,
+    volume INTEGER,
+    ma20 REAL,
+    ma50 REAL,
+    rsi REAL,
+    macd REAL,
+    signal REAL,
+);
